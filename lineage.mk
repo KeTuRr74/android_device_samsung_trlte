@@ -20,11 +20,11 @@ $(call inherit-product, device/samsung/trlte/full_trlte.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_trltexx
-PRODUCT_DEVICE := trltexx
+PRODUCT_NAME := lineage_trlte
+PRODUCT_DEVICE := trlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N910F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-PRODUCT_NAME=trltexx
+PRODUCT_NAME=trlte
